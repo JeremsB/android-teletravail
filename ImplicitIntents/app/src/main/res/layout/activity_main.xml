@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/website_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:inputType="textPersonName"
+        android:text="@string/edittext_uri" />
+
+    <Button
+        android:id="@+id/open_website_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:onClick="openWebsite"
+        android:backgroundTint="#FF00B7"
+        android:textColor="#46FF03"
+        android:textStyle="bold"
+        android:text="@string/button_uri" />
+
+    <EditText
+        android:id="@+id/location_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:inputType="textPersonName"
+        android:text="@string/edittext_loc" />
+
+    <Button
+        android:id="@+id/open_location_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:onClick="openLocation"
+        android:backgroundTint="#FF00B7"
+        android:textColor="#46FF03"
+        android:textStyle="bold"
+        android:text="@string/button_loc" />
+
+    <EditText
+        android:id="@+id/share_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/edittext_share"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/share_text_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:onClick="shareText"
+        android:text="@string/button_share"
+        android:backgroundTint="#FF00B7"
+        android:textColor="#46FF03"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/picture_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="#FF00B7"
+        android:onClick="takePicture"
+        android:text="@string/picture"
+        android:textColor="#46FF03"
+        android:textStyle="bold" />
+
+</LinearLayout>
