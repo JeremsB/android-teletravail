@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">MenuContextuel</string>
+
+    <string name="edit">Edit</string>
+    <string name="share">Share</string>
+    <string name="delete">Delete</string>
 </resources>
