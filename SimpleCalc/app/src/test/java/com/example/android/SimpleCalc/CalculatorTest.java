@@ -92,7 +92,7 @@ public class CalculatorTest {
 
     @Test
     public void divByZeroThrows() {
-        
+
     }
 
 
