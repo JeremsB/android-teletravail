@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ShowToast</string>
+
+    <string name="chk_choco_syrup">Chocolate Syrup</string>
+    <string name="chk_sprinkles">Sprinkles</string>
+    <string name="chk_crush_nuts">Crushed nuts</string>
+    <string name="chk_cherries">Cherries</string>
+    <string name="chk_orio_cc">Orio cookie crumble</string>
+    <string name="btn">Show Toast</string>
+</resources>

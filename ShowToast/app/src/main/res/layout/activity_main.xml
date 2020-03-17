@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+    android:orientation="vertical">
+
+    <CheckBox
+        android:id="@+id/chkChocoSyrup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="#F000FF"
+        android:text="@string/chk_choco_syrup"
+        android:textColor="#2EFF00" />
+
+    <CheckBox
+        android:id="@+id/chkSprinkles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="#F000FF"
+        android:text="@string/chk_sprinkles"
+        android:textColor="#2EFF00" />
+
+    <CheckBox
+        android:id="@+id/chkCrushNuts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="#F000FF"
+        android:text="@string/chk_crush_nuts"
+        android:textColor="#2EFF00" />
+
+    <CheckBox
+        android:id="@+id/chkCherries"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="#F000FF"
+        android:text="@string/chk_cherries"
+        android:textColor="#2EFF00" />
+
+    <CheckBox
+        android:id="@+id/chkOrioCookieCrumbles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="#F000FF"
+        android:text="@string/chk_orio_cc"
+        android:textColor="#2EFF00" />
+
+    <Button
+        android:id="@+id/btnDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F000FF"
+        android:text="@string/btn"
+        android:textColor="#2EFF00"
+        android:onClick="showLeToast"/>
+
+</LinearLayout>
